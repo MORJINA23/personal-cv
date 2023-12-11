@@ -1,0 +1,382 @@
+.header{
+    margin: 0;
+    padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Noto+Sans:wght@500&family=Roboto+Condensed:ital,wght@0,300;0,500;0,700;1,600&display=swap');
+}
+.home-main{
+    margin: 0px; 
+    padding: 10px 40px;
+    background-color: rgb(197, 215, 215);
+    }
+    .part-1{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    }
+    .nav-bar{
+      width: 100%;
+    }
+    .nav-bar ul{
+        display: flex;
+        list-style-type: none;
+    }
+    .nav-bar ul li a{
+        margin: 0px 10px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-bar ul li a:hover{
+        background-color: rgb(43, 226, 141);
+        margin: 3px 5px;
+        border-radius: 3px;
+    }
+     .home-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 150px;
+
+     }
+     .my-details{
+        width: 50%;
+        padding: 10px 20px;
+     }
+     .my-details h1{
+        font-size: 30px;
+        font-family:sans-serif;
+        
+
+
+     }
+     .my-details p{
+        color: rgb(17, 13, 21);
+        
+     }
+     .my-details button{
+        margin: 10px 0px;
+        padding: 5px 15px;
+        border-radius: 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        background-color: rgb(28, 10, 75);
+        border: none;
+
+     }
+     
+     
+    
+      .imge-part{
+         width: 50%;
+      }
+      .imge-part img{
+         width: 100%;
+      }
+         
+
+      
+      .section-1{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 50px 150px;
+      }
+
+
+
+
+      .my-details-2{
+          width: 50%;
+         padding: 10px 20px;
+      }
+      .my-details-2 h1{
+         font-size: 30px;
+         font-family: sans-serif;
+      }
+        .my-details-2 button{
+         margin: 10px 0px;
+         padding: 5px 15px;
+         border-radius: 4px;
+         color: white;
+         font-size: 15px;
+         font-weight: 300;
+         background-color: rgb(28, 10, 75);
+         border: none; 
+
+      
+         }
+      
+      
+         .my-details-2 p{
+            color: #000;
+         }
+      .imge-2{
+         width: 50%;
+      }
+      
+      .imge-2 img{
+         width: 100%;
+      }
+        
+    
+       .Service{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin: 50px 150px;
+      border-radius: 10px;
+      gap: 50px;
+       }
+    
+    
+
+   .Service-item{
+        padding:30px 60px;
+        border-radius: 8px;
+        background-color: white;
+         
+        align-items: center;
+
+    }
+
+    .Service-item h1{
+      padding: 10px;
+      margin: 0px;
+   
+      
+      
+
+    }
+    .Service-item p{
+      color: #000;
+    }
+    
+    .Service-item i{
+      font-size: 25px;
+      color: rgb(70, 155, 155);
+      text-align: center;
+      
+    }
+
+    
+   
+    .offer-1{
+      text-align: center;
+     margin: 5px;
+     background-color: white;
+    }
+    .offer-1 h2{
+      margin: 10px;
+      
+   
+    }
+    .offer-1 p{
+      padding: 20px;
+      
+       }
+
+       /*start-5*/
+       .number-1{
+         background-color: aqua;
+         border-radius: 5px;
+         text-align: center;display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         
+       }
+       .num{
+        margin: 60px 0;
+       }
+
+       .number-1 h1{
+         align-items: center;
+       }
+         .nav ul {
+         display: flex;
+         margin-left: 400px;
+         
+       }
+        .nav ul li{
+         list-style-type: none;
+         margin: 0px 5px;
+         padding: 5px 10px;
+       }
+        .imge-part-3{
+         display: grid; 
+         grid-template-columns: repeat(3,1fr);
+         margin: 0;
+         
+       } 
+       .imge-part-3 img{
+         padding: 15px;
+        }
+        .part-3{
+          text-align: center;
+        }
+          /*section-6*/
+          .section6{
+            height: 500px;
+            width: 100%;
+          }
+          .one{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            border-radius: 3px;
+          }
+          .top-part{
+           font-size: 20px;
+           background-color: rgb(250, 241, 241);
+           border: none;
+           height: 430px;
+           width: auto;
+           margin: 0 20px;
+           padding-left: 50px;
+
+          }
+        .h4{
+          color: white;
+        }
+        .button{
+          background-color: cornflowerblue;
+          margin: 8px;
+          padding: 6%; ;
+        }
+          
+         .footer-part{
+          display: flex;
+          font-size: 20px;
+          justify-content: space-around;
+          width: 100%;
+          background-color: hsl(0, 5%, 4%);
+          color: white;
+          padding: 8px;
+          border: none;
+          margin-top: 60px;
+         }
+       .h4{
+         color: white;
+       }
+       .button{
+         background-color: cornflowerblue;
+         margin: 8px;
+         padding: 6%; ;
+       }
+       @media only screen  and ( max-width:600px){
+    
+        body{
+         background-color:rgb(227, 213, 241);
+         width: 100%;
+         
+        }
+        .home-main{
+          margin: 0px; 
+          padding: 5px;
+          background-color: rgb(197, 215, 215);
+          width: 500px;
+          }
+      .header-section{
+         display: inline block;
+      }
+      .nav-bar{
+     width: auto;
+      }
+      .nav-bar ul li{
+         padding: 5px;
+      }
+      .home-section{
+         display: inline-block;
+        /* justify-content: space-between; */
+        align-items: center;
+        margin:20px  ;
+      }
+      .Service{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .Service-item{
+      padding: 20px;
+      background-color: azure;
+      border: 1px solid black;
+     }
+     .imge-part-3{
+      display: grid; 
+      grid-template-columns: repeat(1,1fr);
+      margin: 0;
+    }
+    .one{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      border-radius: 3px;
+    }
+    .footer-part{
+      margin-top: 1400px;
+      width: fit-content;
+     }
+  }
+
+      
+
+          
+            
+            
+  
+          
+        
+             
+        
+         
+
+      
+       
+         
+          
+         
+        
+         
+        
+        
+           
+        
+        
+
+         
+
+
+
+
+
+         
+
+         
+         
+         
+       
+
+       
+      
+      
+       
+      
+         
+   
+        
+      
+      
+       
+         
+         
+         
+      
+      
+      
+
+       
+       
+      
+         
+       
+       
+        
+        
+       
+  
